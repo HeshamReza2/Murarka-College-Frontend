@@ -1,0 +1,45 @@
+.best-practice{
+    background-color: rgba(250, 235, 215, 0.4);
+    padding: 10px;
+    margin: 5px;
+    border-radius: 7px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.practice-head{
+    text-align: center;
+}
+
+.practice-head h4{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    -webkit-text-stroke: 0.1px black;
+    animation: Color 4s ease-in-out infinite;
+    text-shadow: 1px 1px #F0F0F0;
+}
+
+.practice-details{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.second-practice{
+    border-top: 2px solid cyan;
+}
+
+.practice-details h6{
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    color: rgb(0, 160, 160);
+    margin-top: 20px;
+}
+
+.practice-details-points{
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    margin-top: 20px;
+}
+
+.practice-details-points p ul{
+    list-style-type: decimal;
+}
