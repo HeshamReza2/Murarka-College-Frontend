@@ -1,0 +1,164 @@
+.nav-icons{
+    display: flex;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: 16px;
+    cursor: default;
+}
+
+.nav-icons-value{
+    margin-left: 5px;
+    color: rgb(0, 160, 160);
+}
+
+.nav-logo{
+    width: 80px;
+}
+
+.contact{
+    display: flex;
+    float: right;
+}
+
+@media (max-width: 320px){
+    .nav-logo{
+        width: 55px;
+        height: 55px;
+    }
+
+    .nav-logo-name{
+        padding: 0px;
+        margin-top: -10px;
+    }
+}
+
+.logo-section{
+    display: flex;
+    justify-content: center;
+}
+
+.nav-logo-name{
+    padding: 20px 0px 0px 20px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    animation: Color 4s ease-in-out infinite;
+    text-shadow: 1px 1px #F0F0F0;
+    cursor: default;
+}
+
+.nav-icons a{ 
+    text-decoration: none;
+}
+
+.topnav{
+    background-color: #E5EFEF;
+}
+
+.fa{
+    color: rgb(0, 155, 155);
+    font-size: 18px;
+    padding-top: 4px;
+}
+
+.bottomnav{
+    background-image: linear-gradient(180deg, #870000, #190a05);
+    padding: 0px;
+    z-index: 1;
+}
+
+.downnav{
+    padding-left: 0px;
+    color: white;
+}
+
+.downnav:hover{
+    background-color: #540303;
+}
+
+.nav-link{
+    padding: 3px;
+}
+
+.normal-link:hover{
+    background-color: #540303;
+}
+
+.dropWhite{
+    -webkit-text-fill-color: black;
+}
+
+.dropWhite:hover{
+    background-color: white;
+}
+
+.navbar-nav{
+    width: 80%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.naac-iso{
+    display: flex;
+    justify-content: space-between;
+}
+
+.naac-iso-item{
+    padding: 0px 15px 0px 15px;
+    text-align: center;
+}
+
+.naac-iso-img{
+    width: 40px;
+    height: 40px;    
+}
+
+.naac-iso-text{
+    font-size: 25px;
+    font-family: "Sedan", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-weight: bold;
+    animation: Color 4s ease-in-out infinite;
+    text-shadow: 1px 1px #F0F0F0;
+    cursor: default;
+}
+
+@media screen and (max-width: 410px) {
+    .nav-logo-name{
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .nav-logo-name{
+        font-size: 30px;
+    }
+    .naac-iso-text{
+        font-size: 17px;
+    }
+}
+
+@media screen and (max-width: 1340px) {
+    .navbar-collapse.collapse {
+        display: none !important;
+    }
+    .navbar-collapse.collapse.in {
+        display: block !important;
+    }
+    .navbar-header .collapse, .navbar-toggle {
+        display:block !important;
+    }
+    .navbar-header {
+        float:none;
+    }
+    .navbar .navbar-brand {float:none;display: inline-block;}
+  .navbar .navbar-nav>.nav-item { float: none; margin-left: .1rem;}
+  .navbar .navbar-nav {float:none !important;}
+  .nav-item{width:100%;text-align:left;} 
+  .navbar-toggler {display: block !important;}
+  .navbar-toggleable-sm.collapse {display:none !important}
+  .navbar-toggleable-sm.collapse.in {display:block !important}
+}

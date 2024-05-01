@@ -1,0 +1,11 @@
+.map-head{
+    text-align: center;
+}
+
+.map-head h4{
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    -webkit-text-stroke: 0.1px black;
+    animation: Color 4s ease-in-out infinite;
+    text-shadow: 1px 1px #F0F0F0;
+}

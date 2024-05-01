@@ -1,0 +1,27 @@
+.desk-head{
+    text-align: center;
+    padding: 5px 0px;
+}
+
+.desk-head h5{
+    font-size: 30px;
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    -webkit-text-stroke: 0.1px black;
+    animation: Color 4s ease-in-out infinite;
+    text-shadow: 1px 1px #F0F0F0;
+}
+
+.desk-img{
+    padding-top: 50px;
+}
+
+.desk-img img{
+    width: 100%;
+}
+
+.desk-para{
+    text-align: justify;
+    font-family: "Ubuntu", sans-serif;
+    text-indent: 5px;
+}

@@ -1,0 +1,33 @@
+.vis-box img{
+    width: 100%;
+    border-radius: 0px 0px 10px 10px;
+    transition: all 2s;
+}
+
+.vis-box img:hover{
+    transform: scale(0.95);
+}
+
+.vis-box p{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    padding: 15px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+.vmv{
+    height: 580px;
+}
+
+@media screen and (max-width: 768px) {
+    .vmv{
+        min-height: 700px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .vmv{
+        height: auto;
+    }
+}

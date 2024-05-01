@@ -1,0 +1,10 @@
+.d-block:hover{
+    transform: scale(1.15);
+}
+
+.d-block{
+    transition: all 2s;
+    min-height: 500px;
+    max-height: 500px;
+    margin-top: 10px;
+}

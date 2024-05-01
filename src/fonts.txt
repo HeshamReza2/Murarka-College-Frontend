@@ -1,0 +1,4 @@
+paragraph --> font-family: "Ubuntu", sans-serif;
+header main --> font-family: "Playfair Display", serif;
+header inside --> font-family: "Roboto Slab", serif;
+logo main --> font-family: "Sedan", serif;

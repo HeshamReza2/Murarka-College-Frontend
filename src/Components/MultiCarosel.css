@@ -1,0 +1,27 @@
+.slides{
+    max-width: fit-content;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 5px;
+    text-align: center;
+    color: green;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.205);
+    cursor: pointer;
+    transition: all 2s;
+}
+
+.slides:hover{
+    transform: scale(1.05);
+}
+
+.slide-image{
+    max-width: 120px;
+    max-height: 120px;
+    min-width: 120px;
+    min-height: 120px;
+    padding: 10px;
+}
+
+.slide-name{
+    font-family: "Ubuntu", sans-serif;
+}

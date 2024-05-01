@@ -1,0 +1,47 @@
+.main{
+    background-image: url('./background.png');
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+
+.main-container{
+    background-color: rgb(255, 246, 248);
+    padding: 15px 5px;
+}
+
+.college-header{
+    text-align: center;
+    font-family: "Playfair Display", serif;
+    font-size: 35px;
+    -webkit-text-stroke: 0.1px black;
+    animation: Color 4s ease-in-out infinite;
+    text-shadow: 1px 1px #F0F0F0;
+}
+
+.college-image{
+    text-align: center;
+}
+
+.college-image img{
+    width: 100%;
+    padding: 5px;
+}
+
+.college-text{
+    text-align: justify;
+}
+
+.college-text p{
+    padding: 10px;
+    text-indent: 5px;
+    font-family: "Ubuntu", sans-serif;
+}
+
+#first-para::first-letter {
+    -webkit-initial-letter: 2;
+            initial-letter: 2;
+    color: red;
+    font-weight: bold;
+    margin-left: .75em;
+    margin-right: .75em;
+}
