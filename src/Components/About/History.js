@@ -1,6 +1,6 @@
 import React from 'react'
 import { Col, Container, Row } from 'react-bootstrap'
-import AboutBanner from './AboutBanner'
+import AboutBanner from '../AboutBanner'
 
 import './History.css'
 

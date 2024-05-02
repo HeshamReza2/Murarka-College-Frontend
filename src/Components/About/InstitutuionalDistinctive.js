@@ -1,6 +1,6 @@
 import React from 'react'
 import './InstitutuionalDistinctive.css'
-import AboutBanner from './AboutBanner'
+import AboutBanner from '../AboutBanner'
 import { Col, Container, Row } from 'react-bootstrap'
 
 function InstitutuionalDistinctive() {

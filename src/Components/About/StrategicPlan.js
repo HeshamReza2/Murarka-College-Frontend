@@ -1,7 +1,7 @@
 import React from 'react'
 import './StrategicPlan.css'
 import { Col, Container, Row } from 'react-bootstrap'
-import AboutBanner from './AboutBanner'
+import AboutBanner from '../AboutBanner'
 
 function StrategicPlan() {
   return (

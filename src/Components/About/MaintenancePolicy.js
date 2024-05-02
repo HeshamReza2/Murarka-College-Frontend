@@ -1,6 +1,6 @@
 import React from 'react'
 import './MaintenancePolicy.css'
-import AboutBanner from './AboutBanner'
+import AboutBanner from '../AboutBanner'
 import { Col, Container, Row } from 'react-bootstrap'
 
 function MaintenancePolicy() {

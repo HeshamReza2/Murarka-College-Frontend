@@ -1,5 +1,5 @@
 import React from 'react'
-import AboutBanner from './AboutBanner'
+import AboutBanner from '../AboutBanner'
 
 import './CampusMap.css'
 import { Col, Container, Row } from 'react-bootstrap'
